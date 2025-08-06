@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="login-container" id="loginSection">
+    <h2>🎈 Welcome to a Special Surprise 🎈</h2>
+    <input type="text" id="nameInput" placeholder="Enter your name" />
+    <button onclick="validateName()">Enter</button>
+    <p id="loginError" class="error"></p>
+  </div>
+
+  <div id="mainContent" style="display: none;">
+    <h1>🎉 Happy Birthday 🎉</h1>
+
+    <div class="cake-container">
+      <img id="cake" src="image/di42abkz.jpg" alt="Birthday Cake">
+      <img id="candle" src="image/97pygsef.jpg" alt="Candle">
+    </div>
+
+    <div class="message" id="msg1">Wishing you a day filled with love and joy!</div>
+    <div class="message" id="msg2">You are truly special and deeply cherished 💖</div>
+    <div class="message" id="msg3">May this year be your best one yet 🌟</div>
+
+    <div class="gallery">
+      <div class="photo" style="animation-delay: 0s; animation-name: slideInLeft;">
+        <img src="image/IMG-20250805-WA0005.jpg" alt="Photo 1">
+        <div class="caption">You light up every room you enter ✨</div>
+      </div>
+      <div class="photo" style="animation-delay: 3s; animation-name: slideInRight;">
+        <img src="image/IMG-20250805-WA0008.jpg" alt="Photo 2">
+        <div class="caption">Your smile is the most beautiful thing 💫</div>
+      </div>
+      <div class="photo" style="animation-delay: 6s; animation-name: slideInTop;">
+        <img src="image/IMG-20250805-WA0002.jpg" alt="Photo 3">
+        <div class="caption">Every moment with you is a memory 💖</div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
